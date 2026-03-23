@@ -1,0 +1,9 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+schema:Taxon a rdfs:Class ;
+    rdfs:label "Taxon" ;
+    rdfs:comment "A set of organisms asserted to represent a natural cohesive biological unit." ;
+    rdfs:subClassOf schema:Thing ;
+    schema:isPartOf <https://pending.schema.org> ;
+    schema:source <http://bioschemas.org> .
